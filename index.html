@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phototype: Food, Wedding &amp; Event Photography | Halifax, NS</title>
+  <meta name="description" content="Phototype is a Halifax, NS photography studio specializing in food, wedding, and event photography by Andrew Donovan and Crissie Brenton." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Phototype" />
+  <meta property="og:title" content="Phototype: Food, Wedding & Event Photography" />
+  <meta property="og:description" content="Halifax, NS photography studio specializing in food, wedding, and event photography by Andrew Donovan and Crissie Brenton." />
+  <meta property="og:url" content="https://phototype.ca/" />
+  <meta property="og:image" content="https://phototype.ca/assets/images/food-ramen.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Phototype: Food, Wedding & Event Photography" />
+  <meta name="twitter:description" content="Halifax, NS photography studio specializing in food, wedding, and event photography." />
+  <meta name="twitter:image" content="https://phototype.ca/assets/images/food-ramen.jpg" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <div class="header-inner wrap">
+      <a href="#hero" class="logo" aria-label="Phototype home">
+        <span class="logo-bold">PHOTO</span><span class="logo-light">TYPE</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="nav-backdrop" id="nav-backdrop"></div>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-media">
+        <img src="assets/images/food-ramen.jpg" alt="Overhead shot of a steak ramen bowl with soft-boiled egg, styled by Phototype" />
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1><span class="logo-bold">PHOTO</span><span class="logo-light">TYPE</span></h1>
+        <p class="hero-value">Genuine moments, thoughtfully composed.</p>
+        <p class="hero-tagline">Food &middot; Weddings &middot; Events</p>
+        <p class="hero-location">Halifax, Nova Scotia</p>
+        <a href="#about" class="scroll-cue" aria-label="Scroll to learn more">&darr;</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-inner wrap">
+        <div class="about-media">
+          <img src="assets/images/team-andrew-crissie.jpg" alt="Black and white portrait of Andrew Donovan and Crissie Brenton, the photographers behind Phototype" loading="lazy" decoding="async" />
+        </div>
+        <div class="about-content">
+          <h2>Who is Phototype?</h2>
+          <div class="bio">
+            <h3>Andrew Donovan</h3>
+            <p class="bio-role">Developer / Designer / Photographer</p>
+            <p>Andrew has been into design and technology for as long as he can remember, with a background in IT and Graphic &amp; Digital Media Design.</p>
+          </div>
+          <div class="bio">
+            <h3>Crissie Brenton <span class="bio-nickname">aka The Worm Woman</span></h3>
+            <p class="bio-role">Photographer</p>
+            <p>Crissie's passion for photography started when she taught herself to shoot on an old Canon AE-1 film camera. Alongside photography, the culinary arts have always been another creative outlet.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="wrap">Services</h2>
+      <div class="services-grid wrap">
+        <article class="service-card service-card--photo">
+          <img src="assets/images/food-tomato-salad.jpg" alt="Heirloom tomato salad with edible flowers, styled by Phototype" loading="lazy" decoding="async" />
+          <h3>Food Photography</h3>
+          <p>Styled, appetite-driven photography for menus, socials, and brand campaigns.</p>
+        </article>
+        <article class="service-card service-card--photo">
+          <img src="assets/images/service-wedding.jpg" alt="Engagement portrait of a couple holding hands, photographed by Phototype" loading="lazy" decoding="async" />
+          <h3>Wedding Photography</h3>
+          <p>Documentary-style coverage of your day, from getting-ready to the last dance.</p>
+        </article>
+        <article class="service-card service-card--photo">
+          <img src="assets/images/service-event.jpg" alt="DJ performing at a live event, photographed by Phototype" loading="lazy" decoding="async" />
+          <h3>Event Photography</h3>
+          <p>Corporate events, parties, and everything in between, captured candidly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="wrap">Portfolio</h2>
+      <div class="portfolio-tabs wrap" role="tablist" aria-label="Portfolio categories">
+        <button class="portfolio-tab active" data-category="food" role="tab" aria-selected="true">Food</button>
+        <button class="portfolio-tab" data-category="wedding" role="tab" aria-selected="false">Weddings</button>
+        <button class="portfolio-tab" data-category="event" role="tab" aria-selected="false">Events</button>
+      </div>
+      <div class="gallery-row wrap">
+        <button class="portfolio-arrow" id="portfolio-prev" aria-label="Previous category">&lsaquo;</button>
+      <div class="gallery" id="gallery">
+        <button class="gallery-item" data-full="assets/images/food-ramen.jpg" data-category="food">
+          <img src="assets/images/food-ramen.jpg" alt="Overhead shot of a steak ramen bowl with soft-boiled egg" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/food-cocktail.jpg" data-category="food">
+          <img src="assets/images/food-cocktail.jpg" alt="Spiced tequila cocktail styled with a desert-themed tablescape" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/food-tomato-salad.jpg" data-category="food">
+          <img src="assets/images/food-tomato-salad.jpg" alt="Heirloom tomato salad with edible flowers and goat cheese" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/food-samosas.jpg" data-category="food">
+          <img src="assets/images/food-samosas.jpg" alt="Fried samosas with chutneys, styled overhead on a wooden table" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/food-granola-honey.jpg" data-category="food">
+          <img src="assets/images/food-granola-honey.jpg" alt="Granola and yogurt bowl with honey being drizzled over persimmons" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/food-dandan-wide.jpg" data-category="food">
+          <img src="assets/images/food-dandan-wide.jpg" alt="Dan dan noodles topped with peanuts and scallions" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/food-beet-salad.jpg" data-category="food">
+          <img src="assets/images/food-beet-salad.jpg" alt="Roasted beet and endive salad with sunflower seeds" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/food-banh-mi.jpg" data-category="food">
+          <img src="assets/images/food-banh-mi.jpg" alt="Vietnamese banh mi sandwiches on a rustic tray with a glass of beer" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/service-wedding.jpg" data-category="wedding" hidden>
+          <img src="assets/images/service-wedding.jpg" alt="Engagement portrait of a couple holding hands, photographed by Phototype" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/weddingpic01.jpg" data-category="wedding" hidden>
+          <img src="assets/images/weddingpic01.jpg" alt="Groom holding his son alongside his father on a rocky beach" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/weddingpic02.jpg" data-category="wedding" hidden>
+          <img src="assets/images/weddingpic02.jpg" alt="Bride and groom sharing a quiet moment on coastal rocks, black and white portrait" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/weddingpic03.jpg" data-category="wedding" hidden>
+          <img src="assets/images/weddingpic03.jpg" alt="Groomsmen toasting with whisky on a coastal bluff overlooking the ocean" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/weddingpic04.jpg" data-category="wedding" hidden>
+          <img src="assets/images/weddingpic04.jpg" alt="Bride and groom holding hands during their beach ceremony as a bridesmaid looks on" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/weddingpic05.jpg" data-category="wedding" hidden>
+          <img src="assets/images/weddingpic05.jpg" alt="Bride and groom holding hands on the beach, groomsmen and a baby looking on" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/weddingpic06.jpg" data-category="wedding" hidden>
+          <img src="assets/images/weddingpic06.jpg" alt="Bride and groom nose to nose in windswept grass, black and white portrait" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/weddingpic07.jpg" data-category="wedding" hidden>
+          <img src="assets/images/weddingpic07.jpg" alt="Wedding rings displayed on driftwood and stone" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/service-event.jpg" data-category="event" hidden>
+          <img src="assets/images/service-event.jpg" alt="DJ performing at a live event, photographed by Phototype" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/event02.jpg" data-category="event" hidden>
+          <img src="assets/images/event02.jpg" alt="MC performing under a canopy of international flags, arm raised to a cheering crowd" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/event03.jpg" data-category="event" hidden>
+          <img src="assets/images/event03.jpg" alt="MC reaching toward the crowd during a live performance under colored stage lights" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/event04.jpg" data-category="event" hidden>
+          <img src="assets/images/event04.jpg" alt="Artists spray-painting a graffiti mural at night during a live event" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/event05.jpg" data-category="event" hidden>
+          <img src="assets/images/event05.jpg" alt="DJ performing to a crowd with hands raised under a flag-draped ceiling" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/event06.jpg" data-category="event" hidden>
+          <img src="assets/images/event06.jpg" alt="Overhead view of a packed dance floor beside the DJ booth and graffiti wall" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/event07.jpg" data-category="event" hidden>
+          <img src="assets/images/event07.jpg" alt="DJs performing at the turntables under blue stage lighting" loading="lazy" decoding="async" />
+        </button>
+        <button class="gallery-item" data-full="assets/images/event08.jpg" data-category="event" hidden>
+          <img src="assets/images/event08.jpg" alt="MC performing live on stage with a photographer capturing the crowd" loading="lazy" decoding="async" />
+        </button>
+      </div>
+        <button class="portfolio-arrow" id="portfolio-next" aria-label="Next category">&rsaquo;</button>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <h2 class="wrap">FAQ</h2>
+      <div class="faq-list wrap">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How far in advance should we book?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>For weddings, the earlier the better. Busy season (June through October) books up months ahead. Food and event shoots are more flexible; a couple weeks' notice is usually fine, but reach out even if your timeline is tight.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What's included, and how many photos will we get?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>It depends on the shoot. A full wedding day typically comes back with several hundred edited photos; food and event work is scoped to the project. We'll go over specifics before anything is booked so you know exactly what you're getting.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How long until we get our photos?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Food and event galleries are usually ready in 1-2 weeks. Weddings take longer since there's more to go through: plan on 4-6 weeks for the full set, though we'll usually get a handful of favourites to you sooner.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Do you travel outside Halifax?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" hidden>
+            <p>Yes, we've shot all over the province. Travel outside the city may come with an added cost depending on distance, so just ask when you get in touch.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner wrap">
+        <div class="contact-info">
+          <h2>Get in touch</h2>
+          <img src="assets/images/contact.jpg" alt="Two people toasting cocktails over a spread of Indian dishes, styled by Phototype" loading="lazy" decoding="async" />
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label for="name">Name <span class="required-mark">*</span></label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email <span class="required-mark">*</span></label>
+          <input type="email" id="email" name="email" required />
+          <label for="service">Service Type <span class="required-mark">*</span></label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option value="Food">Food</option>
+            <option value="Wedding">Wedding</option>
+            <option value="Event">Event</option>
+            <option value="Other">Other</option>
+          </select>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <button type="submit">Send message</button>
+          <p class="contact-confirmation" id="contact-confirmation" hidden>Thanks! Your email app should now open with your message ready to send. If nothing happens, email us directly at hello@phototype.ca.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <img src="" alt="" id="lightbox-image" />
+  </div>
+
+  <footer class="site-footer">
+    <span class="logo logo--small">
+      <span class="logo-bold">PHOTO</span><span class="logo-light">TYPE</span>
+    </span>
+    <p>&copy; 2026 Phototype. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://www.instagram.com/phototypehfx/" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/phototypeca" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
